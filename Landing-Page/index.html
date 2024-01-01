@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let's Trade </title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* Css reset */
+
+    body {
+        color: rgb(0, 0, 0);
+        margin: 0px;
+        padding: 0px 0px;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(39, 93, 111);
+        background-size: cover;
+        overflow-y: auto;
+
+    }
+
+    .left {
+        position: absolute;
+        left: 38px;
+        top: 15px;
+        display: inline-block;
+
+
+    }
+
+    .left img {
+        width: 277px;
+        position: absolute;
+        right: -221px;
+        top: -76px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 37%;
+        margin: 15px auto;
+        display: flex;
+        /* border: 2px solid white; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        display: flex;
+        /* border: 2px solid rgb(255, 200, 0); */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 19px;
+    }
+
+
+
+    .navbar li a {
+        color: rgb(255, 254, 254);
+        text-decoration: none;
+        padding: 3px 17px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: underline;
+        color: rgb(236, 225, 11);
+
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 28px;
+        font-size: 14px;
+        color: white;
+
+    }
+
+    .btn {
+        margin: 0px 5px;
+        background-color: #393c3b;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid #867a7a;
+        border-radius: 15px;
+        font-size: 15px;
+        cursor: pointer;
+
+
+    }
+
+    .btn:hover {
+        transform: scaleX(1.5);
+        background-color: rgb(162, 185, 158);
+
+    }
+    .container1{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container1-text{
+
+        /* border: 2px solid rgb(112, 112, 112); */
+        /* padding: 175px 296px; */
+        width: 40%;
+        padding-top: 100px;
+
+        /* border-radius: 36px */
+    }
+    .container2 {
+
+        /* border: 2px solid rgb(112, 112, 112); */
+        padding: 12px 254px;
+        width: 66%;
+
+        /* margin-top: -109px */
+    }
+
+    .container3 {
+        /* border: 2px solid rgb(112, 112, 112); */
+        padding: 15px 176px;
+        width: 30%;
+        border-radius: 36px;
+        margin-top: 20px;
+    }
+
+    .container4 {
+        width: 80%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        padding: 0px 150px;
+    }
+
+    .container4-cont {
+        /* border: 2px solid rgb(112, 112, 112); */
+        padding: 0px 15px;
+        /* width: fit-content; */
+        max-width: 230px;
+        height: fit-content;
+        /* border-radius: 36px */
+    }
+
+    .video {
+        padding-left: 810px 50px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+        display: flex;
+        height: fit-content;
+        justify-content: space-around;
+        border: 2px black;
+        border-radius: 2px;
+
+    }
+</style>
+
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/logo.png" alt="">
+
+        </div>
+
+        <!-- for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+
+        </div>
+        <!-- for button -->
+        <div class="right">
+            <button class="btn">Sign up </button>
+            <button class="btn">Sign in</button>
+
+        </div>
+    </header>
+
+    <div class="container1">
+        <div class="container1-text">
+            <p> <span
+                    style="font-size: 61px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Algo
+                    <br> trading. <br> For <br> everyone</span>
+            </p>
+            <p> <span style="font-size: 20px; font-family: Arial, Helvetica, sans-serif;"> This software has been
+                    <br>created to empower <br>strategy creators. How? By <br>allowing them to <br>automate their quant
+                    <br>
+                    strategies and sell them <br> to investors and traders <br>the world over. The best <br>part? You
+                    never
+                    have to <br> write a single bit of code <br> or download clunky algo <br>trading software's.</span>
+            </p>
+        </div>
+        <div class="container1-video">
+            <video controls width="450px">
+                <source src="img/algo trading viseo.mp4">
+            </video>
+        </div>
+    </div>
+
+    
+    <div class="container2">
+        <p> <span
+                style="font-size: 50px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Want
+                to experience Algo Trading, check out this interactive demo</span></p> <br>
+        <div>
+            <button class="btn">Demo</button>
+        </div>
+
+    </div>
+    <div class="container3">
+        <p> <span
+                style="font-size: 50px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                Here is how we do it. </span>
+        </p> <br>
+
+
+    </div>
+
+    <div class="container4">
+        <div class="container4-cont">
+            <p> <span
+                    style="font-size: 31px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Our
+                    Download Free
+                    Trading Engine.
+                    At your beck and call.</span></p> <br>
+            <p> <span style="font-size: 20px; font-family: Arial, Helvetica, sans-serif;">Behind the scenes a powerful
+                    algo trading engine built on distributed architecture is connecting with multiple data providers to
+                    fetch near real-time data of multiple exchanges around the world in Stocks, Futures, Options,
+                    Currencies and Commodities so that you get the best possible automated trading experience in
+                    india.</span>
+            </p>
+        </div>
+
+        <div class="container4-cont">
+            <p> <span
+                    style="font-size: 31px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">The
+                    magic of our
+                    strategy building
+                    wizard.</span></p> <br>
+            <p> <span style="font-size: 20px; font-family: Arial, Helvetica, sans-serif;"> Looking for a forex
+                    divergence? A simple buy and hold? A complex market making, maybe? Or maybe you have no idea what
+                    any of this means. No worries. We’ve got you covered.</span>
+            </p>
+        </div>
+
+        <div class="container4-cont">
+            <p> <span
+                    style="font-size: 31px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Social
+                    trading.
+                    A strategy
+                    marketplace.</span></p> <br>
+            <p> <span style="font-size: 20px; font-family: Arial, Helvetica, sans-serif;"> Complete market newbie? Not
+                    to worry. Social trading Makes it your participation in the best algo trading strategies easy and
+                    most importantly transparent.</span>
+            </p>
+        </div>
+
+        <div class="container4-cont">
+            <p> <span
+                    style="font-size: 31px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Our
+                    backtesting
+                    engine. Before
+                    going forward.</span></p> <br>
+            <p> <span style="font-size: 20px; font-family: Arial, Helvetica, sans-serif;"> Our backtesting engine will
+                    test your strategies in real-time with historical data before you go live. This includes testing for
+                    keywords ranging from holidays and corporate results to IVs and HVs. Your backtesting results will
+                    offer you deep insights into how your strategy could perform going forward.</span>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
